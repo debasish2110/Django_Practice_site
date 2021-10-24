@@ -11,4 +11,4 @@ def index(request):
     # return HttpResponse("This is home page....!!!")
 
 def About(request):
-    return HttpResponse("This is About Page..!!")
+    return render(request, "About.html")
